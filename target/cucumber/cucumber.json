@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1574511673,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate home page",
+        "description": "",
+        "id": "validate-home-page;validate-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 86713477,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1653803103,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to \"http://www.namaonline.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.namaonline.org",
+                  "offset": 15
+                }
+              ],
+              "location": "HomeSteps.i_navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227470424,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the home page",
+            "match": {
+              "location": "HomeSteps.i_click_on_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29708063,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate that the page title is \"Welcome to North American Manipur Association!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to North American Manipur Association!",
+                  "offset": 35
+                }
+              ],
+              "location": "HomeSteps.i_validate_that_the_page_title_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@debug"
+          },
+          {
+            "name": "@debug"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Home Page",
+    "description": "  I want to validate the home page",
+    "id": "validate-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Validate-Home-Page.feature",
+    "tags": [
+      {
+        "name": "@debug",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

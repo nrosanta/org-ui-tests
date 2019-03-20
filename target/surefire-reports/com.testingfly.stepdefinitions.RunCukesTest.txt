@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.testingfly.stepdefinitions.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.203 s - in com.testingfly.stepdefinitions.RunCukesTest
